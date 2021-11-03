@@ -1,0 +1,36 @@
+.titleContainer {
+    height: 53px;
+    padding: 0 var(--spacing);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--lightGrey);
+    flex-shrink: 0;
+  }
+  
+  .titleContainer h1 {
+    flex: 1;
+  }
+
+  .profileHeaderContainer .userImageContainer {
+    width: 132px;
+    height: 132px;
+    margin-left: var(--spacing);
+    position: absolute;
+    top: 150px;
+  }
+  
+  .profileHeaderContainer .userImageContainer img {
+    border: 4px solid #fff;
+  }
+  
+  .profileHeaderContainer .profileButtonsContainer {
+    text-align: right;
+    padding: var(--spacing);
+    min-height: 66px;
+  }
+
+  .coverPhotoContainer {
+    height: 180px;
+    background-color: var(--blue);
+    position: relative;
+  }

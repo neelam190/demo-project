@@ -1,0 +1,40 @@
+<%- include("../partials/header") %>
+<link rel="stylesheet" href="/css/profile.css">
+<link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+
+<div class="row">
+    <%- include("../partials/navbar") %>
+    <div class="main-container mainSectionContainer col-10 col-md-10 col-lg-10">
+        <div class="titleContainer">
+            <h1>Hi</h1>
+        </div>
+        
+        <div class="profileHeaderContainer">
+            <div class="coverPhotoSection">
+                <div class="coverPhotoContainer">
+                </div>
+                <div class="userImageContainer">
+                    <img src="/images/profilePic.jpeg" alt="User profile image">
+                </div>
+            </div>
+            <div class="profileButtonsContainer"></div>
+            <div class="userDetailsContainer">
+                <span class="displayName"></span>
+                <span class="description"></span>
+
+            </div>
+        </div>
+        
+        <div></div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/js/jQuery.js"></script>
+<script src="/js/profile.js"></script>
+<script src="/js/common.js"></script>
+<%- include("../partials/footer") %>
