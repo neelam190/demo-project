@@ -31,7 +31,7 @@ app.set('views', path.join(__dirname, '/views'));
 app.use(express.static(path.join(__dirname, '/public')));
 // middleware for passing form data in login/signup
 app.use(express.urlencoded({ extended: true }));
-// 7. pass form encoded data into json format; use instead of body parsen, data coming from axios - frontend
+// 7. data coming from axios - frontend
 app.use(express.json());
 
 // 5. import routes
